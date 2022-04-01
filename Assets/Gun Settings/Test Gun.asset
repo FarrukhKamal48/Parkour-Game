@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2771a76b00901404fbc92409c07c159d, type: 3}
+  m_Name: Test Gun
+  m_EditorClassIdentifier: 
+  name: Test Gun
+  bullet: {fileID: 1532864925514695183, guid: 0af6b1a30be4ac046a25cf778cf79fc3, type: 3}
+  muzzleFlash: {fileID: 7144419388380033530, guid: 039d35ca70f70be4c82f2c93bfafa74a,
+    type: 3}
+  shootForce: 100
+  upwardForce: 0
+  fireRate: 0.3
+  spread: 0
+  reloadTime: 1
+  timeBetweenShots: 0
+  magSize: 50
+  bulletsPerTap: 1
+  allowButtonHold: 1
+  aimHold: 1
